@@ -1,0 +1,33 @@
+form {
+    font-size: 14px;
+
+    >button {
+        float: right;
+        margin: 12px 0 6px;
+    }
+
+    .t-form-group {
+        >label {
+            display: inline-block;
+            width: 130px;
+        }
+
+        >input {
+            width: 200px;
+        }
+
+        >select {
+            width: 100px;
+        }
+    }
+
+    input[type=text], select {
+        border: 1px solid #c0d4dd;
+    }
+    
+    input[type=text]:focus, select:focus {
+        outline-color: #5798be;
+        outline-style: solid;
+        outline-width: 1px;
+    }
+}

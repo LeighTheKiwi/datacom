@@ -1,0 +1,33 @@
+dialog {
+    border: 0;
+    border-radius: 0.5rem;
+    box-shadow: hsl(0 0% 0% / 10%) 0 0 0.5rem 0.25rem;
+    position: relative;
+    padding: 1px;
+
+    &::backdrop {
+        background: hsl(0 0% 0% / 50%);
+    }
+
+    .t-dialog-header {
+        display: flex;
+        justify-content: space-between;
+        background-color: #c0d4dd;
+        padding: 6px;
+        margin-bottom: 12px;
+        color: #666666;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+
+        >.t-option {
+            border: 1px solid;
+            padding: 0 5px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    }
+
+    .t-dialog-content {
+        padding: 12px;
+    }
+}

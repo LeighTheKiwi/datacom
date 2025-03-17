@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.t-danger {
+  color: red;
+}
+
+.t-link {
+  cursor:pointer;
+  text-decoration:underline;
+
+  &:hover {
+    text-decoration:none;
+    color: blue;
+  }
+}
